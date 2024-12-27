@@ -4,3 +4,47 @@
 /project.properties
 /bin
 /gen
+
+# Gradle files
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+
+# Android Studio specific
+*.log
+*.apk
+*.ap_ 
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Android NDK
+.obj/
+.libs/
+*.so
+
+# Kotlin
+*.kotlin_metadata
+
+# IntelliJ
+*.iws
+*.iml
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+.mvn/
+
+# Android/Gradle related
+.gradle-wrapper.jar
+.gradle-wrapper.properties
