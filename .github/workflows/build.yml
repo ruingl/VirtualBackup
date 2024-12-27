@@ -1,4 +1,4 @@
-name: Compile APP
+name: Build APK
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Upload APK
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: apk
         path: app/build/outputs/apk/release/*.apk
