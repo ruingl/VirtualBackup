@@ -22,7 +22,7 @@
         android:label="Virtual Backup 32"
         android:theme="@android:style/Theme.DeviceDefault">
         <activity
-            android:name="com.virtualbackup.MainActivity"
+            android:name="com.virtualbackup32.MainActivity"
             android:label="Virtual Backup 32">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
